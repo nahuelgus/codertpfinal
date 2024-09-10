@@ -1,8 +1,8 @@
 /* Reset imports*/
 * {
-  margin: 1px;
-  padding: 1px;
-  border: 1px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
 /* Images Size*/
@@ -29,10 +29,138 @@ body img {
   height: 250px;
 }
 
+/* Texts and customization*/
+/*Variables*/
+h1 {
+  size: 25px;
+  text-align: center;
+  color: rgb(6, 63, 6);
+  font-family: "Geologica", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+}
+
+h2 {
+  size: 20px;
+  color: rgb(6, 63, 6);
+  font-family: "Geologica", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+}
+
+h3 {
+  size: 15px;
+  color: rgb(6, 63, 6);
+  font-family: "Geologica", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+}
+
 /* BODY*/
+body {
+  background-color: #DADFDD;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0px;
+}
+body .card {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 5%;
+  align-items: center;
+  border-radius: 20px;
+}
+body .card img {
+  border-radius: 15px;
+}
+body .card a {
+  background-color: rgb(6, 63, 6);
+  border-color: rgb(6, 63, 6);
+}
+body .card a:hover {
+  background-color: rgb(75, 168, 75);
+  border-color: rgb(6, 63, 6);
+}
+
+header {
+  margin: 20px;
+}
+
 /* Navbar*/
+.navbar {
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+.navbar a {
+  color: rgb(6, 63, 6);
+  font-weight: 600;
+}
+.navbar a:hover {
+  color: rgb(13, 116, 13);
+  font-weight: 750;
+}
+.navbar .navbar-text {
+  color: rgb(6, 63, 6);
+  font-weight: 750;
+}
+
 /* Footer*/
+footer {
+  margin: 25px;
+  margin-top: 300px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #DADFDD;
+}
+footer .footer-icons a {
+  padding: 25px;
+}
+footer .footer-icons a img {
+  border-radius: 10px;
+}
+
 /* sections*/
+form {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 /* Pages*/
+#equipo {
+  margin-top: 5%;
+}
+
+.local {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.local h3 {
+  font-weight: 400;
+  font-size: 25 px;
+}
+
+.local-martinez {
+  margin-top: 5%;
+}
+
+.local-parana {
+  margin-top: 5%;
+}
 
 /*# sourceMappingURL=style.css.map */

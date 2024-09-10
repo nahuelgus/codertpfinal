@@ -1,0 +1,18 @@
+.navbar{
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    a{
+        color: rgb(6, 63, 6);
+        font-weight: 600; 
+
+    }
+    a:hover{
+        color: rgb(13, 116, 13);
+        font-weight: 750; 
+    }
+    .navbar-text{
+        color: rgb(6, 63, 6);
+        font-weight: 750;
+    }
+}
